@@ -7,6 +7,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Node](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg)](https://nodejs.org/)
 [![Version](https://img.shields.io/badge/version-0.1.0-orange.svg)](package.json)
+[![GitHub](https://img.shields.io/badge/github-zhxqc%2Ftools--hub-blue.svg)](https://github.com/zhxqc/tools-hub)
 
 </div>
 
@@ -197,6 +198,6 @@ pnpm format
 
 **[⬆ 回到顶部](#tools-hub)**
 
-Made with ❤️ by [bons](https://github.com/bons)
+Made with ❤️ by [zhxqc](https://github.com/zhxqc)
 
 </div>

@@ -310,30 +310,29 @@
 
 ### 阶段 9：Git 仓库初始化和发布
 
-- [ ] **9.1 初始化 Git 仓库**
+- [x] **9.1 初始化 Git 仓库**
   - 检查是否已有 `.git` 目录，如无则执行 `git init`
   - 验证 `.gitignore` 正确配置
   - 执行 `git add .` 添加所有文件
   - 验证自动生成的文件已被忽略（`auto-imports.d.ts`, `components.d.ts`）
   - 参考需求：4.1.1, 4.1.2
 
-- [ ] **9.2 创建首次提交**
+- [x] **9.2 创建首次提交**
   - 执行 `git commit -m "feat: 项目结构优化和依赖完善"`
   - 验证提交成功
   - 验证提交包含所有应该提交的文件
   - 参考需求：4.1.3
 
-- [ ] **9.3 配置 GitHub 远程仓库**
-  - 提示用户在 GitHub bons 组织下创建 `tools-hub` 仓库
-  - 执行 `git remote add origin https://github.com/bons/tools-hub.git`
-  - 执行 `git branch -M main`
+- [x] **9.3 配置 GitHub 远程仓库**
+  - 在 GitHub 创建 `tools-hub` 仓库（Public）
+  - 执行：`git remote add origin git@github.com:zhxqc/tools-hub.git`
+  - 执行：`git branch -M main`
   - 参考需求：4.2.1, 4.2.4, 4.2.5
 
-- [ ] **9.4 推送到 GitHub**
-  - 执行 `git push -u origin main`
-  - 验证推送成功
-  - 提醒用户在 GitHub 上设置仓库描述："一个基于 Vue 3 的轻量级文本工具集，支持 TXT 与 Excel 互转"
-  - 提醒用户添加 Topics：`vue3`, `typescript`, `element-plus`, `excel`, `txt`, `file-converter`, `vite`
+- [x] **9.4 推送到 GitHub**
+  - 执行：`git push -u origin main`
+  - 验证推送成功 ✅
+  - 仓库地址：https://github.com/zhxqc/tools-hub
   - 参考需求：4.2.2, 4.2.3
 
 ---
