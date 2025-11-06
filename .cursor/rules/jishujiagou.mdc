@@ -1,0 +1,14 @@
+---
+alwaysApply: true
+---
+## 项目启动
+安装依赖：`pnpm install`
+
+## 技术框架选型
+使用Vue3+TypeScript+Element-Plus技术框架开发
+
+## SCSS 规范
+- 使用 SCSS 预处理器
+- 样式文件使用 `lang="scss"` 和 `scoped` 属性
+- 遵循 BEM 命名规范
+- 使用变量和混入提高复用性
